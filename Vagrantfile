@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
       sudo groupadd wireshark || true
 
       # Ajouter l'utilisateur 'bob' au groupe 'wireshark'
-      sudo usermod -aG wireshark bob
+      sudo usermod -aG wireshark alice
     SHELL
   end
 
