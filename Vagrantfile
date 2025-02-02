@@ -25,7 +25,7 @@ Vagrant.configure("2") do |config|
       sudo apt-get install -y wireshark xauth x11-apps
 
       # Ajouter la variable DISPLAY dans le fichier .bashrc pour qu'elle soit disponible à chaque session
-      echo "export DISPLAY=localhost:10.0" >> /home/bob/.bashrc
+      echo "export DISPLAY=localhost:10.0" >> /home/alice/.bashrc
 
       # Créer le groupe 'wireshark' si non existant
       sudo groupadd wireshark || true
